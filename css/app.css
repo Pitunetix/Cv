@@ -1,0 +1,357 @@
+header{
+    background: rgb(47, 153, 153);
+    position: fixed;
+    width: 100%;
+    height: auto;
+    top: 0px;
+    z-index: 1;
+}
+
+.container{
+    text-align: justify;
+}
+
+#foto{
+    margin-top: 17px;
+    border: 1px solid rgb(230, 224, 224);
+    border-radius: 15px;
+}
+
+#datos{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Signika', sans-serif;
+}
+
+#iconos{
+    margin-left: 9%;
+}
+
+ul, #conocimientos{
+    padding: 0px;
+}
+
+ul li{
+    text-align: left !important;
+    padding: 5px;
+    list-style: none;
+    width: 100%;
+
+}
+
+ul li i{
+    margin-right: 5px;
+}
+
+/* MENU */
+#hola{
+    color: black;
+    font-family: 'Oregano', cursive;
+    font-size: 35px;
+}
+
+.menu{
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nombre{
+    margin-top: 12px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu .nombre{
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.menu .nombre a{
+    color: white;
+    vertical-align: top;
+    height: 20px;
+    text-decoration: none;
+}
+
+.menu .btn-menu{
+    display: none;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.menu .enlaces{
+    display: inline-block;
+    text-align: right;
+}
+
+.menu .enlaces a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    text-align: center;
+    font-size: 1em;
+}
+
+.menu .enlaces a:hover{
+    background: rgb(155, 218, 207);
+    color: black;
+    transition: 300ms;
+}
+
+.menu .enlaces i{
+    margin-right: 5px;
+}
+
+.header .nombre, h5{
+    color: white;
+    font-family: 'Oregano', cursive;
+    font-size: 34px;
+    margin-top: 15px;
+}
+
+#cv{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(205, 228, 228);
+    margin-top: -5px;
+    font-family: 'Salsa', cursive;
+}
+
+#btn-job{
+    font-size: 110%;
+    color: white;
+}
+
+#btn-job:hover{
+    text-decoration: none !important;
+    list-style: none !important;
+}
+
+.card{
+
+    -webkit-box-shadow: 2px 2px 4px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 4px -2px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 4px -2px rgba(0,0,0,0.75); 
+}
+
+#card-item{
+    margin-top: 5em;
+}
+
+.card-title{
+    font-size: 25px;
+}
+
+.card-head{
+    min-height: 40px;
+    text-align: center;
+    padding: 9px;
+    height: auto;
+    color: white;
+    background: rgb(47, 153, 153);
+}
+
+.text-secondary{
+    text-align: justify;
+}
+
+.card-footer{
+    text-align: center;
+    background: rgb(238, 237, 237);
+}
+
+#tecnologias{
+    width: 60%;
+}
+
+#titulo {
+    margin-top: 40px;
+    height: 85px;
+    background-color: #f2f2f2;
+}
+
+#guille{
+    text-align: center !important;
+}
+
+.btn {
+    width: 80%;
+    margin-bottom: 20px;
+    background: rgb(47, 153, 153);
+    color: white;
+}
+
+.btn:hover{
+    text-decoration: none;
+    background: rgb(30, 97, 97);
+    color: white;
+}
+
+.card-header{
+    color: white;
+    background: rgb(47, 153, 153);
+}
+
+.card-header:hover{
+    background: rgb(30, 97, 97);
+}
+
+#seg-cuerpo {
+    background-color: #bfbfbf;
+}
+
+#imacs{
+    width: 93%;
+}
+
+
+
+.footer {
+    padding: 2%;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+/******* Efectos del menu *******/
+.headroom{
+    transition: transform .3s ease;;
+}
+
+.headroom--pinned{
+    transform: translateY(0%);
+}
+
+.headroom--unpinned{
+    transform: translateY(-100%);
+}
+
+
+/********* MEDIA QUERYS ***********/
+
+@media screen and (max-width: 1000px) {
+
+    header{
+        height: 80px;
+    }
+
+    header .menu {
+        background: rgb(47, 153, 153);
+        flex-direction: column;
+    }
+
+    header .menu .nombre{
+        display:inline-flex;
+        flex-direction: row;
+        justify-content:space-between;
+        width: 100%;
+        padding: 1em;
+        text-align: center;
+    }
+    
+    header .menu .nombre .btn-menu{
+        display: inline-block;
+    }
+
+    header .menu .enlaces {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .menu .enlaces{
+        margin-top: 30px;
+    }
+
+    .header .nombre, h5{
+       margin-top: -10px;
+    }
+
+    #foto{
+        width: 50%;
+    }
+
+    .btn{
+        width: 50%;
+    }
+
+    #hola{
+        text-align: center;
+    }
+
+    #titulo{
+        text-align: center;
+    }
+
+    #iconos{
+        margin: auto;
+    }
+
+    #tecnologias{
+        width: 100%;
+    }
+
+    #imacs{
+        width: 85%;
+    }
+
+    #iconos, #datos li{
+        margin-left: 15%;
+        text-align: left !important
+    }
+
+    ul li i{
+        margin-right: 25px;
+    }
+
+}
+
+@media (max-width: 800px){
+    
+    header .menu .enlaces {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #imacs{
+        margin: auto;
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 500px){
+    
+    .header .nombre, h5 {
+        width: 100%;
+        margin-top: -10px;
+        margin-right: 100px;
+        font-size: 28px;
+    }
+    
+    #iconos, #datos li{
+        margin-left: 5% !important;
+    }
+    
+    #btn-job{
+        font-size: 90%;
+        color: white;
+    }
+
+    #imacs{
+        margin: auto;
+        width: 100%;
+    }
+}

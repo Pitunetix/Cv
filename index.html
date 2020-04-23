@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- FUENTES-->
+    <!--Nombre-->
+    <link href="https://fonts.googleapis.com/css2?family=Oregano&display=swap" rel="stylesheet">
+
+    <!--OTRAS FUENTES-->
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+
+
+
+
+    <!-- STYLE CSS-->
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/timeline.css">
+    <script src="js/index.js"></script>
+
+    <!--Btn-Icons-->
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link href="css/brands.css" rel="stylesheet">
+    <link href="css/solid.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header id="header">
+        <nav class="menu">
+
+            <div class="nombre">
+                <a href="index.html">
+                    <h5>Guillermo Riusech</h5>
+                    <p id="cv">(Curriculum Vitae)</p>
+                </a>
+                <a href="" class="btn-menu" id="btn-menu"><i class="nombre fas fa-bars"></i></a>
+            </div>
+
+            <div class="enlaces" id="enlaces">
+                <a href="#" id="home"><i class="fas fa-home"></i> Inicio</a>
+                <a href="#" id="job"><i class="fas fa-network-wired"></i> Trabajos</a>
+                <a href="#" id="study"><i class="fas fa-book"></i> Estudios</a>
+                <a href="#" id="education"><i class="fas fa-book"></i> Educación</a>
+                <a href="#" id="project"><i class="fas fa-award"></i> Projectos</a>
+            </div>
+        </nav>
+    </header>
+
+    <br>
+
+    <div class="container">
+        <div class="card mt-10" id="card-item">
+            <div class="row no-gutters">
+                <div class="col-md-4" id="guille">
+                    <img src="img/youp.png" class="img-fluid" id="foto" alt=""><br><br>
+                    <a href="../pdfs/reporte2-05-10.pdf" download="Curriculum-GuillermoRiusech">
+                        <button type="button" class="btn">Descargar Curriculum</button>
+                    </a>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h1 class="card-title" id="hola">¡Hola, soy Guillermo Riusech!</h1>
+                        <p>Tengo 23 años, soy de Morelia Michoacán México, actualmente estudio la carrera de
+                            Licenciatura en Sistemas Computacionales y tengo una extraña pasión por la tecnología y
+                            la programación.
+
+                            En mis ratos libres trabajo como desarrollador web freelancer y he trabajado en algunas
+                            pequeñas empresas como desarrollador web y programador. Tengo buena experiencia
+                            maquetando con HTML5 y CSS3, mi CMS favorito es WordPress pero también conozco un poco
+                            de Joomla. Si de programar se trata, domino los lenguajes de programación PHP y
+                            Javascript, conozco los patrones de diseño y arquitectura de software como MVC y he
+                            trabajado con los frameworks CodeIgniter y jQuery, aunque también programo un poco en
+                            ASP.NET y aplicaciones de escritorio en Java y C#. Actualmente me encuentro
+                            desarrollando mis habilidades de programación para dispositivos móviles en Android.
+
+                            Tengo nociones de diseño web, diseño de interfaces, usabilidad y experiencia de usuario
+                            pero lamentablemente no soy diseñador gráfico, si te interesa lo que hago puedes ver mi
+                            résumé (CV) o si prefieres puedes contactarte conmigo usando el formulario de contacto.
+                        </p>
+                        <hr>
+
+                        <ul id="iconos">
+                            <div class="row" id="datos">
+                                <div class="col-md-6">
+                                    <li><i class="fas fa-hand-holding-heart"></i> 30 Años</li>
+                                    <li><i class="fas fa-road"></i> Balcarce 355</li>
+                                    <li><i class="fas fa-envelope"></i> guille_riusech@hotmail.com</li>
+                                </div>
+                                <div class="col-md-6">
+                                    <li><i class="fas fa-mobile-alt"></i> +549 3534289565</li>
+                                    <li><i class="fas fa-city"></i> Córdoba</li>
+                                    <li><i class="fas fa-street-view"></i> Córdoba</li>
+
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12" id="titulo"><br>
+            <h3 class="title font-italic">Experiencia Laboral</h3>
+        </div>
+        <br>
+
+        <div class="col-sm-12" id="cuerpo">
+
+
+            <!--Accordion wrapper-->
+            <div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
+
+                <!-- Accordion card -->
+                <div class="card">
+
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="headingOne1">
+                        <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true"
+                            aria-controls="collapseOne1">
+                            <h3 class="mb-0" id="btn-job">
+                                FREELANCE (01/08/2019) - Actualidad - Desarrollador de páginas web <i
+                                    class="fas fa-angle-down rotate-icon"></i>
+                            </h3>
+                        </a>
+                    </div>
+
+                    <!-- Card body -->
+                    <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1"
+                        data-parent="#accordionEx">
+                        <div class="card-body">
+                            Actualmente me encuentro estudiando y aplicando como desarrollador web (front-end)
+                            Freelance, lo cual me permite realizar tareas de diseño, implementación y puesta en
+                            producción de sitios web. Para mis desarrollos utilizo principalmente la plataforma
+                            Windows. Estas son algunas de la herramientas y lenguajes con los que trabajo: Bootstrap,
+                             HTML5, CSS3, JQuery, Angular (Basico aun) y Git.
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Accordion card -->
+
+                <!-- Accordion card -->
+                <div class="card">
+
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="headingTwo2">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo2"
+                            aria-expanded="false" aria-controls="collapseTwo2">
+                            <h3 class="mb-0" id="btn-job">
+                                Ls Computación (01/02/2019) - Actualidad - Agente de Soporte Técnico <i
+                                    class="fas fa-angle-down rotate-icon"></i>
+                            </h3>
+                        </a>
+                    </div>
+
+                    <!-- Card body -->
+                    <div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2"
+                        data-parent="#accordionEx">
+                        <div class="card-body">
+                            Actualmente me desarrollo como agente de soporte técnico y atención al cliente. Entre
+                            mis tareas y responsabilidades se encuentran la reparación y el mantenimiento de
+                            notebook, netbook, PCs, tablets, celulares y consolas de video juegos como Xbox 360,
+                            PlayStation2 y PlayStation4; la venta de insumos informáticos y telefonía celular;
+                            asesoramiento técnico; elaboración de presupuestos; y manejo de proveedores.
+                            Referencia: <br>Lucas Santillan. Dueño: Cel: 0351-155153547
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Accordion card -->
+
+                <!-- Accordion card -->
+                <div class="card">
+
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="headingThree3">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree3"
+                            aria-expanded="false" aria-controls="collapseThree3">
+                            <h3 class="mb-0" id="btn-job">
+                                COATA S.A (21/02/2018) - (21/02/2019) - Administrativo Micronauta <i
+                                    class="fas fa-angle-down rotate-icon"></i>
+                            </h3>
+                        </a>
+                    </div>
+
+                    <!-- Card body -->
+                    <div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree3"
+                        data-parent="#accordionEx">
+                        <div class="card-body">
+                            En la empresa COATA trabajé como técnico de configuración y administración de boleteras
+                            digitales de transporte de pasajeros Micronautas, mis tareas y responsabilidades para
+                            este puesto eran: Resolver los inconvenientes que pudieran llegar a presentar los
+                            distintos puntos de venta (Boleterias); Asistir remotamente mediante TeamViewer;
+                            Capacitar a los choferes para un buen manejo de las Micronautas; Guardia pasiva 24Hs;
+                            Reportar inconvenientes y buscar soluciones con las distintas areas de la empresa;
+                            Redactar informes, Diseñar e imprimir tarjetas personales para choferes. Además, trabajé
+                            como administrador del Servidor Multimedia para entretenimiento a bordo de pasajeros
+                            OmniPlay. Entre mis tareas y responsabilidades se encontraban: La configuracion, el
+                            mantenimiento y la actualizacion. También me desarrolle como gestor de configuración del
+                            software de venta de pasajes (Megabus), mis tareas y responsabilidades eran la
+                            instalación, configuración y mantenimiento del mismo, Reportar a los desarrolladores las
+                            modificaciones necesarias que se requerian desde el area Administrativa.
+                            Referencia: <br> Hugo Rubiolo. Capacitador: Cel: 0351-156868949
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Accordion card -->
+
+                <!-- Accordion card -->
+                <div class="card">
+
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="headingFour4">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseFour4"
+                            aria-expanded="false" aria-controls="collapseFour4">
+                            <h3 class="mb-0" id="btn-job">
+                                Freelance (2013 - 2016). Desarrollador de páginas web <i
+                                    class="fas fa-angle-down rotate-icon"></i>
+                            </h3>
+                        </a>
+                    </div>
+
+                    <!-- Card body -->
+                    <div id="collapseFour4" class="collapse" role="tabpanel" aria-labelledby="headingFour4"
+                        data-parent="#accordionEx">
+                        <div class="card-body">
+                            Actualmente me encuentro trabajando como desarrollador web (front-end), realizo las
+                            tareas de diseño, implementación y puesta en producción de sitios web. Para mis
+                            desarrollos utilizo principalmente la plataforma Windows. Estas son algunas de la
+                            herramientas y lenguajes con los que trabajo: HTML, CSS, FLASH 8 y Fireworks 8.
+                            Referencia: Susana Esther Erramouspe, Cel: 0353-156572017.
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- Accordion wrapper -->
+
+            <br>
+        </div>
+
+
+
+        <div class="col-sm-12" id="titulo"><br>
+            <h3 class="title font-italic">Mis Conocimientos</h3>
+        </div>
+
+        <div class="col-sm-12" id="cuerpo">
+            <div class="row align-items-center">
+                <div class="col-sm-12 col-md-12">
+                    <ul id="conocimientos">
+                        <li>Dominio avanzado de HTM5 y CSS3, para proyectos más complejos la maquetación la realizo
+                            mediante Sass. Considero fundamental para ser diseñador web tener conocimientos
+                            avanzados de maquetación y así poder entender el lógico funcionamiento de los distintos
+                            elementos de una web en sus distintos formatos (escritorio, tablet o móvil) para una
+                            mejor usuabilidad y experiencia de usuario.
+                        </li>
+                        <br>
+                        
+                        <li>Poseo conocimientos medios de JQuery y JavaScript, actualmente formándome Vue.js con la
+                            intención de ser un diseñador Front-end completo. También dispongo de nociones de PHP
+                            plano y MySQL.
+                        </li>
+                        <br>
+                        <li>Dominio avanzado de WordPress pudiendo personalizarlo a medida del cliente y
+                            conocimientos de tiendas online con Prestashop
+                        </li>
+                    </ul>
+                    <br><br>
+                </div>
+                <div class="col-sm-12 col-md-12"><img class="img-fluid mx-auto d-block" src="img/tecnologias.png" id="tecnologias"></div>
+            </div>
+        </div>
+
+        <!-- EDUCACION -->
+
+        <div class="col-sm-12" id="titulo"><br>
+            <h3 class="title font-italic">Educación y Formación</h3>
+        </div>
+        <br>
+
+        <div class="col-sm-12" id="estudio">
+            <div class="row">
+
+                <div class="col-sm-12 col-md-4">
+                    <div class="card border-secondary mb-3" style="max-width: auto;">
+                        <div class="card-head font-italic"> IPEA 81 - Bengolea - Córdoba.</div>
+                        <div class="card-body text-secondary">
+                            <p class="card-text"> Bachiller Técnico en producción de bienes y servicios – Producción
+                                agropecuaria.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Egresado: 2008</small>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                    <div class="card border-secondary mb-3" style="max-width: auto;">
+                        <div class="card-head"> Instituto Leibnitz - Villa María - Córdoba</div>
+                        <div class="card-body text-secondary">
+                            <p class="card-text"> Técnico Superior en Hardware, me premitio conocer toda las partes
+                                de hardware facilitandome al dia de hoy desenvolverme para realizar cualquier tipo
+                                de reparación o asistencia tecnica.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Egresado: 2013</small>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                    <div class="card border-secondary mb-3" style="max-width: auto;">
+                        <div class="card-head">Cefoc - Villa Maria.</div>
+                        <div class="card-body text-secondary">
+                            <p class="card-text"> Macromedia Dreamweaver 8
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Egresado: 2009</small>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                    <div class="card border-secondary mb-3" style="max-width:autom;">
+                        <div class="card-head">Cefoc - Villa Maria.</div>
+                        <div class="card-body text-secondary">
+                            <p class="card-text"> Macromedia Flash 8.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Egresado: 2009</small>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card border-secondary mb-3" style="max-width: auto;">
+                        <div class="card-head">Cefoc - Villa Maria.</div>
+                        <div class="card-body text-secondary">
+                            <p class="card-text">Macromedia Fireworks 8.</p>
+                        </div>
+
+                        <div class="card-footer">
+                            <small class="text-muted">Egresado: 2009</small>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                    <div class="card border-secondary mb-3" style="max-width: auto;">
+                        <div class="card-head">Microsoft - IAC - Rio Cuarto. Córdoba</div>
+                        <div class="card-body text-secondary">
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                        </div>
+
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                    <div class="card border-secondary mb-3" style="max-width: auto;">
+                        <div class="card-head">Cefoc - Villa Maria. 2007</div>
+                        <div class="card-body text-secondary">
+                            <p class="card-text">Macromedia Dreamweaver 8, fue con este programa que empece a adorar
+                                el mundo del diseño web</p>
+                        </div>
+
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                    <div class="card border-secondary mb-3" style="max-width: auto;">
+                        <div class="card-head">Cefoc - Villa Maria - 2007</div>
+                        <div class="card-body text-secondary">
+                            <p class="card-text">Macromedia Flash 8, lo utilizaba mucho para proyectos personales o
+                                para dejar una vista mejor.</p>
+                        </div>
+
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                    <div class="card border-secondary mb-3" style="max-width: auto;">
+                        <div class="card-head">Cefoc - Villa Maria. 2007</div>
+                        <div class="card-body text-secondary">
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                        </div>
+
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+
+
+
+    </div>
+    <br>
+    </div>
+
+    </div>
+
+
+
+<div class="container">
+    <div class="col-sm-12" id="titulo"><br>
+        <h3 class="title font-italic">Algunos mini proyectos</h3>
+    </div>
+
+    <div class="col-sm-12">
+        <div class="container"><br>
+            <div class="row mx-auto" id="imacs">
+                <div class="col-sm-12 col-md-4"><img src="img/pichona-pc.png" class="img-fluid"></div>
+                <div class="col-sm-12 col-md-4"><img src="img/proyecto-pc.png" class="img-fluid"></div>
+                <div class="col-sm-12 col-md-4"><img src="img/promesas-pc.png" class="img-fluid"></div>
+            </div>
+            <br>
+        </div>
+        <br>
+    </div>
+    </div>
+</div>
+
+
+    <!-- Footer -->
+    <footer class="footer page-footer font-small teal pt-3">
+
+        <!-- Copyright -->
+        <div class="pie footer-copyright text-center my-1">© 2019 Copyright:
+
+        </div>
+        <br>
+        <!-- Copyright -->
+
+        <div class="container-fluid text-center text-md-center">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-12 mt-md-0 pt-6">
+
+                    <!-- Content -->
+
+
+                </div>
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Text -->
+
+    </footer>
+    <!-- Footer -->
+
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/headroom.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+
+h1, .nombre{
+    padding: 0px;
+    color: white;
+    font-family: 'Oregano', cursive;
+    font-size: 35px;
+}
+
+#cv{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(205, 228, 228);
+}
+
+.card{
+
+    -webkit-box-shadow: 2px 2px 4px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 4px -2px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 4px -2px rgba(0,0,0,0.75); 
+}
+
+.card-title{
+    font-size: 25px;
+}
+
+.redes{
+    background: red;
+}
+
+#nav {
+    background: rgb(47, 153, 153);
+    -webkit-box-shadow: 0px 9px 6px -11px rgba(120, 120, 120, 1);
+    -moz-box-shadow: 0px 9px 6px -11px rgba(120, 120, 120, 1);
+    box-shadow: 0px 9px 6px -11px rgba(120, 120, 120, 1);
+}
+
+
+.navbar-nav{
+    text-align: right;
+}
+
+
+.navbar-toggler {
+
+    background-color: #a9a9a9 !important;
+
+}
+
+/*
+.navbar {
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(47, 153, 153);
+    font-family: 'Bree Serif', serif;
+
+}
+*/
+.nav-link {
+    margin: 5px;
+    font-size: 17px;
+    color: white !important;
+}
+
+.nav-link:hover {
+    margin: 5px;
+    font-size: 17px;
+    color: rgba(26, 25, 25, 0.712) !important;
+    transition: 400ms;
+}
+
+.navbar-brand{
+    margin-top: 5%;
+    font-size: 35px;
+}
+
+#titulo {
+    margin-top: 40px;
+    height: 85px;
+    background-color: #f2f2f2;
+}
+
+#guille{
+    text-align: center !important;
+}
+
+.btn {
+    width: 80%;
+    margin-bottom: 20px;
+    background: rgb(47, 153, 153);
+    color: white;
+}
+
+.btn:hover{
+    text-decoration: none;
+    background: rgb(30, 97, 97);
+    color: white;
+}
+
+.card-header{
+    color: white;
+    background: rgb(47, 153, 153);
+}
+
+.card-header:hover{
+    background: rgb(30, 97, 97);
+}
+
+.card-head{
+    min-height: 40px;
+    text-align: center;
+    padding: 2px;
+    height: auto;
+    color: white;
+    background: rgb(47, 153, 153);
+}
+
+h5 {
+    color: white;
+}
+
+#seg-cuerpo {
+    background-color: #bfbfbf;
+}
+
+.footer {
+    padding: 2%;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+
+
+
+
+
