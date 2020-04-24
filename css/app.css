@@ -40,7 +40,8 @@ ul li{
 }
 
 ul li i{
-    margin-right: 5px;
+    font-size: 20px;
+    margin-right: 15px;
 }
 
 /* MENU */
@@ -354,7 +355,7 @@ ul li i{
     }
     
     #iconos, #datos li{
-        margin-left: 5% !important;
+        margin-left: 7% !important;
     }
 
     .btn{
