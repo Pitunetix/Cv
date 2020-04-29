@@ -362,6 +362,10 @@ ul li i{
         margin-left: 7% !important;
     }
 
+    #foto{
+        width: 50%;
+    }
+
     .btn{
         width: 75%;
         height: 11%;
