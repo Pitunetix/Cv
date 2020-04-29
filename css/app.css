@@ -278,7 +278,7 @@ ul li i{
     }
 
     #foto{
-        width: 50%;
+        width: 40%;
     }
 
     .btn{
@@ -330,8 +330,12 @@ ul li i{
         justify-content: space-around;
     }
 
+    #foto{
+        width: 40%;
+    }
+
     .btn{
-        height: 12%;
+        height: 10%;
     }
 
     #imacs{
@@ -360,7 +364,7 @@ ul li i{
 
     .btn{
         width: 75%;
-        height: 15%;
+        height: 11%;
     }
     
     #btn-job{
