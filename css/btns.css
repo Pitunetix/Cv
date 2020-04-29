@@ -1,0 +1,99 @@
+.social-btns .button,
+.social-btns .button:before,
+.social-btns .button .fab {
+    transition: all 0.35s;
+    transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+
+.social-btns .button:before {
+    top: 90;
+    left: -150%;
+}
+
+.social-btns .button .fab {
+    transform: scale(0.8);
+}
+
+.social-btns .button.facebook:before {
+    background-color: #3b5998;
+}
+
+.social-btns .button.facebook .fab {
+    color: #2b5998;
+}
+
+.social-btns .button.google:before {
+    background-color: #dc4a38;
+}
+
+.social-btns .button.google .fab {
+    color: #dc4a38;
+}
+
+.social-btns .button.instagram:before {
+    background-color: #f34881fa;
+}
+
+.social-btns .button.instagram .fab {
+    color: #f34881fa;
+}
+
+.social-btns .button.skype:before {
+    background-color: #00aff0;
+}
+
+.social-btns .button.skype .fab {
+    color: #00aff0;
+}
+
+.social-btns .button:focus:before,
+.social-btns .button:hover:before {
+    top: -10%;
+    left: -10%;
+}
+
+.social-btns .button:focus .fab,
+.social-btns .button:hover .fab {
+    color: #fff;
+    transform: scale(1);
+}
+
+.social-btns {
+    height: 90px;
+    margin: auto;
+    font-size: 0;
+    text-align: center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.social-btns .button {
+    display: inline-block;
+    background-color: #fff;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 5px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 28%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    opacity: 0.99;
+}
+
+.social-btns .button:before {
+    content: "";
+    width: 120%;
+    height: 120%;
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+.social-btns .button .fab {
+    font-size: 25px;
+    vertical-align: middle;
+}

@@ -4,6 +4,26 @@ $(function() {
     var headroom = new Headroom(header);
     headroom.init();
 
+
+    function ocultar()
+    {
+        if( ancho < 1000 )
+        {
+            enlaces.hide();
+            nombre.addClass('fa-bars');
+            nombre.removeClass('fa-times');
+                
+        }
+        else
+        {
+            enlaces.show();
+            nombre.addClass('fa-bars');
+            nombre.removeClass('fa-times');
+            
+        }  
+    }
+
+
     // Menu Responsive
 
     // Calculo el ancho de la pagina
@@ -11,6 +31,7 @@ $(function() {
         enlaces = $('#enlaces'),
         btnMenu = $('#btn-menu'),
         nombre = $('#btn-menu .nombre');
+        header = $('#header');
 
         if( ancho <= 1000 )
         {
@@ -29,7 +50,7 @@ $(function() {
         $(window).on('resize', function(event)
         {
             event.preventDefault();
-            if( $(this).width() > 1000 )
+            if( $(this).width() >= 1000 )
             {
                 enlaces.show();
                 nombre.addClass('fa-times');
@@ -45,37 +66,49 @@ $(function() {
 
 
     //Scroll
+
     $("#home").click(function(e){
         e.preventDefault();
         $("html, body").animate({
             scrollTop: 0
         }, 900);
-        return false;
+        ocultar(); 
     });
 
     $("#job").click(function(e){
         e.preventDefault();
         $("html, body").animate({
-            scrollTop: 620
+            scrollTop: $(".experiencia").offset().top
         }, 900);
-        return false;
+        ocultar();        
+     
     });
 
     $("#study").click(function(e){
         e.preventDefault();
         $("html, body").animate({
-            scrollTop: 1100
+            scrollTop: $(".conocimientos").offset().top
         }, 900);
-        return false;
+        ocultar();
     });
 
     $("#education").click(function(e){
         e.preventDefault();
         $("html, body").animate({
-            scrollTop: 1600
+            scrollTop: $(".formacion").offset().top
         }, 900);
-        return false;
+        
+        ocultar();
+
     });
 
+    $("#project").click(function(e){
+        e.preventDefault();
+        $("html, body").animate({
+            scrollTop: $(".proyectos").offset().top
+        }, 900);
+        ocultar();
+
+    });
 
 });
