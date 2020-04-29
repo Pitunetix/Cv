@@ -112,7 +112,7 @@ ul li i{
 
 .header .nombre, h5{
     color: white;
-    font-family: 'Adamina', serif; /* Curriculum */
+    font-family: 'Merriweather', serif; /* Titulo */
     font-size: 27px;
     margin-top: 15px;
 }
@@ -122,7 +122,7 @@ ul li i{
     font-size: 15px;
     color: rgb(205, 228, 228);
     margin-top: -5px;
-    font-family: 'Cuprum', sans-serif; /* Curriculum */
+    font-family: 'PT Sans Narrow', sans-serif; /* Curriculum */
 }
 
 #btn-job{
