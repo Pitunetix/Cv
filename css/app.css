@@ -46,9 +46,10 @@ ul li i{
 
 /* MENU */
 #hola{
+    letter-spacing: -1px;
     color: black;
-    font-family: 'Sriracha', cursive;
-    font-size: 30px;
+    font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 28px;
 }
 
 .menu{
@@ -142,6 +143,10 @@ ul li i{
     box-shadow: 2px 2px 4px -2px rgba(0,0,0,0.75); 
 }
 
+.rotate-icon{
+    margin-left: 1%;
+}
+
 #card-item{
     margin-top: 5em;
 }
@@ -233,6 +238,85 @@ ul li i{
 .headroom--unpinned{
     transform: translateY(-100%);
 }
+
+
+.view-second img { 	
+	transition: all 0.2s ease-in;
+}
+.view-second .mask { 
+	background-color: rgba(115,146,184, 0.7); 
+	width: 300px;
+    padding: 60px;
+	height: 300px;
+	opacity: 0;
+	transform: translate(265px, 145px) rotate(45deg);
+	transition: all 0.2s ease-in-out;
+}
+.view-second h2 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    background: transparent;
+    margin: 20px 40px 0px 40px;
+    transform: translate(200px, -200px);
+	transition: all 0.2s ease-in-out;
+}
+.view-second p { 
+	transform: translate(-200px, 200px);
+	transition: all 0.2s ease-in-out;
+}
+.view-second a.info { 
+    transform: translate(0px, 100px);
+	transition: all 0.2s 0.1s ease-in-out;
+} 
+
+.view-second:hover .mask { 
+	opacity:1; 
+	transform: translate(-80px, -125px) rotate(45deg);
+}							  
+.view-second:hover h2 { 
+	transform: translate(0px,0px);
+	transition-delay: 0.3s; 
+}
+.view-second:hover p { 
+    transform: translate(0px,0px); 
+	transition-delay: 0.4s;
+}
+.view-second:hover a.info { 
+	transform: translate(0px,0px); 
+	transition-delay: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /********* MEDIA QUERYS ***********/

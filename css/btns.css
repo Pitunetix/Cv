@@ -38,12 +38,12 @@
     color: #f34881fa;
 }
 
-.social-btns .button.skype:before {
-    background-color: #00aff0;
+.social-btns .button.linkedin:before {
+    background-color: #1685ad;
 }
 
-.social-btns .button.skype .fab {
-    color: #00aff0;
+.social-btns .button.linkedin .fab {
+    color: #1685ad;
 }
 
 .social-btns .button:focus:before,
