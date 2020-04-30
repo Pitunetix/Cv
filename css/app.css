@@ -178,6 +178,7 @@ ul li i{
 }
 
 #titulo {
+    text-align: center;
     margin-top: 40px;
     height: 85px;
     background-color: #f2f2f2;
