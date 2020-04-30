@@ -197,7 +197,7 @@
   .direction-r .flag:before {
     position: absolute;
     top: -30px;
-      left: 52%;
+      left: 53%;
       content: ' ';
       display: block;
       width: 17px;
@@ -227,7 +227,7 @@
   .time-wrapper {
       display: block;
       position: relative;
-      margin: 4px 0 0 0;
+      margin: 10px 0 0 0;
 
   }
   
