@@ -222,7 +222,9 @@ ul li i{
     width: 93%;
 }
 
-
+.no-responsive{
+    text-align: center;
+}
 
 .footer {
     padding: 2%;
