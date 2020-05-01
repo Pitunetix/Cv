@@ -316,6 +316,10 @@ ul li i{
         width: 85%;
     }
 
+    .no-responsive{
+        text-align: center;
+    }
+
     #iconos, #datos li{
         margin-left: 15%;
         text-align: left !important
@@ -352,6 +356,10 @@ ul li i{
     #imacs{
         margin: auto;
         width: 80%;
+    }
+
+    .no-responsive{
+        text-align: center;
     }
 
 }
