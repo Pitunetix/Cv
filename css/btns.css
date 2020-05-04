@@ -1,7 +1,7 @@
 .social-btns .button,
 .social-btns .button:before,
 .social-btns .button .fab {
-    transition: all 0.35s;
+    transition: all 0.25s;
     transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
 }
 
@@ -64,10 +64,6 @@
     font-size: 0;
     text-align: center;
     position: relative;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
 }
 
 .social-btns .button {
@@ -90,7 +86,7 @@
     width: 120%;
     height: 120%;
     position: absolute;
-    transform: rotate(10deg);
+    transform: rotate(75deg);
 }
 
 .social-btns .button .fab {

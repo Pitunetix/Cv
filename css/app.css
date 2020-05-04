@@ -331,6 +331,34 @@ ul li i{
 
 }
 
+.mutual, .reiki{
+    margin-top: 25px;
+    border: 1px solid #eee;
+    margin-left: 20px;
+    width: 15%;
+    height: 15%;
+}
+
+.bg-info{
+    background-color: rgb(255, 155, 23) !important;
+}
+
+.tecno{
+    display: none;
+}
+
+#tecnologias{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+#tecnologias img{
+    margin-bottom: 20%;
+}
+
+
+
 @media (max-width: 800px){
     
     header .menu .nombre{
@@ -362,6 +390,33 @@ ul li i{
         text-align: center;
     }
 
+    #tecnologias{
+        width: 90%;
+    }
+
+    .tecno{
+        background: white;
+        margin-right: 20px;
+        text-align: left;
+        display: block;
+    }
+
+}
+
+@media (max-width: 770px){
+    
+    #tecnologias img{   
+        display: none;
+    }
+
+    #tecnologias{
+        width: 90%;
+    }
+
+    .progress{
+        display: contents;
+        margin-bottom: 10px;
+    }
 }
 
 @media (max-width: 500px){
@@ -399,4 +454,19 @@ ul li i{
         margin: auto;
         width: 100%;
     }
+
+    #tecnologias{
+        width: 90%;
+    }
+
+    #tecnologias img{
+        display: none;
+    }
+
+    .progress{
+        display: contents;
+        margin-bottom: 10px;
+    }
+
+    
 }
